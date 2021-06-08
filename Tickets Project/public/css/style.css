@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Fira+Sans:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html{
+  height:100%;
+  overflow-y: hidden;
+}
+
+body{
+  height:100%;
+  background-color: rgb(35, 31, 66);  
+  overflow-y: hidden;
+}
+
+.login {
+  margin: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.event-details{
+  margin-left: auto;
+  margin-right: auto;
+  width:65%;
+  text-align: center;
+}
+
+.notif-text, .event-venue, .tickets-left{
+  color:white;
+  margin-top: 2rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+}
+
+.order-button{
+  height:50px;
+  width:200px;
+  color:white;
+  background-color: rgb(55,174,171);
+  border:none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.map{
+  color:white;
+}
+
+.map a{
+  color: rgb(243, 125, 160);
+  text-decoration: none;
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  font-size: 50px;
+  color: rgb(245,107,154);
+  margin: 40px 0px 60px 0px;
+}
+
+.event-details p{
+  margin-bottom:25px;
+}
+
+.event-title{
+  width: 100%;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  font-size: 50px;
+  color: rgb(245,107,154);
+}
+
+.event-date-time{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(55,174,171);
+}
+
+.event-price{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px rgb(245,107,154);
+  color: white;
+  font-size: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 90px auto;
+  grid-gap: 5px;
+  padding: 0px;
+  height:80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width:90%;
+}
+
+.datebox {
+  grid-column: 1 ;  
+  grid-row: 1;
+  border: solid white 1px;
+  margin-right: 0px;
+  height:80px;
+  width: 80px;
+}
+
+.date{
+  color:white;
+  text-align: center;
+  line-height: 80px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.event-right{
+  grid-column: 2 ;
+  grid-row: 1;
+  border-bottom: solid gray 1px;
+  display:grid;
+  grid-template-columns: auto 80px;
+}
+
+.name a{
+  grid-column: 1;
+  grid-row: 1 ;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px rgb(245,107,154);
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  margin-right: 0px;
+  height:40px;
+}
+
+.venue {
+  grid-column: 1;
+  grid-row: 2 ;
+  margin-right: 0px;
+  height:20px;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+.time {
+  grid-column: 1;
+  grid-row: 3;  
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.price-container {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  height:99%;
+  position:relative;
+}
+
+.price{
+  position: absolute;
+  bottom: 5px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(55,174,171);
+}
+
+.ticket-grid-container{
+  display: grid;
+  grid-gap: 0px;
+  padding: 0px;
+  position:relative;
+  top:100px;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  background-color:white;
+  height:500px;
+  border-radius: 10px;
+}
+
+.what{
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  border-bottom: dashed 1px gray;
+}
+
+.where{
+  grid-column: 1 / span 3;
+  grid-row: 2;
+  border-bottom: dashed 1px gray;
+}
+
+.when, .from, .to{
+  border-bottom: dashed 1px gray;
+  border-right: dashed 1px gray;
+}
+
+.barcode{
+  grid-column: 1 / span 3;
+  grid-row: 4;
+  text-align: center;
+  border-bottom: dashed 1px gray;
+}
+
+.ticket-grid-item{
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 10px;
+  color: gray;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+}
+
+.ticket-what{
+  font-family: 'Limelight', cursive;
+  font-size: 40px;
+  color: rgb(245,107,154);
+}
+
+.ticket-where, .ticket-time{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.ticket-number{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+}
+
+.login-wrapper, .verify-wrapper{
+  text-align: center;
+  margin: 85px auto auto auto;
+  width:55%;    
+}
+
+.login-container, .verify-container{
+  width:100%;
+}
+
+.logo img {
+  margin-bottom: .5rem;
+}
+
+.textfield input{
+  margin: 30px 0;
+  width:100%;
+  height:60px;
+  background-color: rgb(243, 148, 64);
+  border:solid  rgb(35, 31, 66) 3px;
+}
+
+input::placeholder  {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.loginbutton input, .verifybutton input{
+  margin: 30px 0;
+  width:100%;
+  height:60px;
+  background-color:  rgb(35, 31, 66);
+  border:none;
+  color:white;
+  font-size: 30px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.logoutbutton input{
+  margin-left: 1rem;
+  background-color:  rgb(35, 31, 66);
+  border:none;
+  color:white;
+  font-family: 'Fira Sans', sans-serif;
+}

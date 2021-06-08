@@ -1,0 +1,27 @@
+Short instructions how to start the application:
+
+
+username: majabuha
+password: passw0rd
+
+startpage: http://localhost:8000/events.html
+
+-Kajsas Kör is set on 1 ticket left to show it is not possible
+to make another order once all tickets are sold out
+
+
+
+Short representation of files:
+
+5 views & 5 corresponding controllers:
+* events.html > User sees list of events, clicks on one of them
+* buy.html > User sees detail of the clicked event, given the option to confirm order
+* ticket.html > User sees ticket after purchase
+* stafflogin.html > Staff Login screen
+* verifyticket.html > Staff can verify tickets by entering ticket number.
+
+3 models, to view & manipulate data
+* auth.js > Manage login
+* event.js > Manage event related data
+* ticket.js > Manage ticket related data
+

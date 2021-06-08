@@ -1,0 +1,34 @@
+Step-by-step explanation:
+
+Step 0: Creating app.js file
+	* app.js is the main application file where the server side functions and modules are initialized, 
+	static folders and api routes are defined.
+
+Step 1: Designing and creating the Data Model (database/ folder)
+	* Editing the database.json file to represent the data entities needed. The app deals with events, 
+	tickets, and staff users. All of them have certain attributes which are modeled as JSON objects 
+	in the database.json file.
+
+Step 2: Designing and creating the APIs (model/ folder)
+	* API layer that manipulates the data within the database was needed. Each entity has 
+	its own set of functions, such as listEvents, createTicket, verifyTicket, etc. Using express.js, 
+	these functions are linked to REST based routes like GET /events or POST /tickets, these routes 
+	are defined in app.js.
+
+Step 3: Creating the controllers (controller/ folder)
+	* Controllers include the client side functions needed to call the APIs and manipulate the document 
+	model based on the API responses. They are also used to add actions to be invoked upon an action 
+	taken by the user (e.g click a button). Separate controller file was created for each web page in the 
+	application. e.g events.js is run when events.html file is loaded, in order to call the events API endpoint 
+	to retrieve the list of events. It then populates the HTML objects with the retrieved information.
+
+Step 4: Creating the views (view/ folder)
+	* Views are the static HTML files, which is essentially what the user sees. When the HTML file is 
+	loaded on the browser, it usually calls a controller js file to populate the HTML file with 
+	information, or to add an action on buttons or links.
+
+Step 5: Creating the stylesheet (public/css folder)
+	* style.css is used to add the required styling to the HTML elements.
+
+
+Example.png attached to visually depict on particular specimens course of action.

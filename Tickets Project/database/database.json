@@ -1,0 +1,152 @@
+{
+  "event": [
+    {
+      "id": 1,
+      "prefix": "ABC",
+      "name": "Lasse-Stefanz",
+      "date": "21 Mar",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "venue": "Kjell Härnqvistsalen",
+      "price": 350,
+      "quantity": 9
+    },
+    {
+      "id": 2,
+      "prefix": "ABC",
+      "name": "Pelle Trubadur",
+      "date": "29 Mar",
+      "startTime": "20:00",
+      "endTime": "00:00",
+      "venue": "Pubelipuben",
+      "price": 110,
+      "quantity": 7
+    },
+    {
+      "id": 3,
+      "prefix": "ABC",
+      "name": "Kajsas kör",
+      "date": "10 Apr",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "venue": "Götaplatsen",
+      "price": 99,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "prefix": "ABC",
+      "name": "Klubb Untz",
+      "date": "17 Apr",
+      "startTime": "22:00",
+      "endTime": "du tröttnar",
+      "venue": "Din favoritkällare",
+      "price": 150,
+      "quantity": 6
+    }
+  ],
+  "ticket": [
+    {
+      "eventId": 1,
+      "ticketNumber": "ABC123",
+      "verified": false
+    },
+    {
+      "eventId": 1,
+      "ticketNumber": "ABC1622058309400",
+      "verified": true
+    },
+    {
+      "eventId": 2,
+      "ticketNumber": "ABC1622488296886",
+      "verified": false
+    },
+    {
+      "eventId": 4,
+      "ticketNumber": "ABC1622488480758",
+      "verified": false
+    },
+    {
+      "eventId": 1,
+      "ticketNumber": "ABC1622534081624",
+      "verified": false
+    },
+    {
+      "eventId": 4,
+      "ticketNumber": "ABC1622535075507",
+      "verified": false
+    },
+    {
+      "eventId": 1,
+      "ticketNumber": "ABC1622540005352",
+      "verified": true
+    },
+    {
+      "eventId": 4,
+      "ticketNumber": "ABC1622541427507",
+      "verified": false
+    },
+    {
+      "eventId": 2,
+      "ticketNumber": "ABC1622542698040",
+      "verified": true
+    },
+    {
+      "eventId": 2,
+      "ticketNumber": "ABC1622577046661",
+      "verified": true
+    },
+    {
+      "eventId": 2,
+      "ticketNumber": "ABC1622709349366",
+      "verified": false
+    },
+    {
+      "eventId": 3,
+      "ticketNumber": "ABC1622745953544",
+      "verified": false
+    },
+    {
+      "eventId": 4,
+      "ticketNumber": "ABC1622751938664",
+      "verified": false
+    },
+    {
+      "eventId": 3,
+      "ticketNumber": "ABC1622752139679",
+      "verified": false
+    },
+    {
+      "eventId": 3,
+      "ticketNumber": "ABC1622790768636",
+      "verified": true
+    },
+    {
+      "eventId": 1,
+      "ticketNumber": "ABC1622792194334",
+      "verified": false
+    },
+    {
+      "eventId": 3,
+      "ticketNumber": "ABC1622792199787",
+      "verified": true
+    },
+    {
+      "eventId": 3,
+      "ticketNumber": "ABC1622792529588",
+      "verified": true
+    },
+    {
+      "eventId": 3,
+      "ticketNumber": "ABC1623160312708",
+      "verified": false
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "username": "majabuha",
+      "password": "$2y$12$AUZKGt7pR6pw7ejKw8y0XOBUoy2Y.fy.O08x0MIEGei1Rx8fkUqqy"
+    }
+  ]
+}
